@@ -1,0 +1,139 @@
+.contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto;
+    flex-direction: column;
+    height: 35rem;
+    max-width: 50rem;
+}
+
+.contenedorInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30%;
+    background-color: rgb(170, 168, 168);
+    border-radius: 1rem 1rem 0rem 0rem;
+    margin: 0rem 4rem;
+}
+
+.h2agregarTarea{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(78, 126, 1);
+}
+
+.contenedorTareas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    border-radius: 0rem 0rem 1rem 1rem;
+    margin: 0rem 4rem;
+    background-color: beige;
+}
+
+.h2tareasPendientes{
+    margin-top: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(206, 33, 3);
+}
+
+.tareas{
+    width: 90%;
+    height: 75%;
+    background-color: grey;
+    margin: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow-y: auto;
+}
+
+.tarea{
+    width: 96%;
+    margin: .5rem;
+    background-color: rgb(78, 116, 2);
+    height: 3.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.texto{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+.contenedorEliminarResolver{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tareaResuelta:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.eliminarTarea:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.contenedorTarea{
+    width: 100%;
+    display: flex;
+}
+
+.inputAgregarTarea{
+    background-color: rgb(44, 42, 42);
+    border-color: transparent;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 65%;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    font-weight: bolder;
+    border-radius: 0rem 1rem 0rem 1rem;
+}
+
+.enviar{
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 15%;
+}
+
+.enviar:hover{
+    background-color: grey;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#formAgregar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.tarea.tareaCompletada{
+    background-color: white;
+    color: black;
+    text-decoration: line-through;
+}
+
+.tareaResuelta{
+    margin-right: 1rem;
+}

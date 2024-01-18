@@ -1,0 +1,21 @@
+.logo{
+    width: 7rem;
+}
+
+.contenedorHeader{
+    background-color: rgb(6, 160, 26);
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
