@@ -137,3 +137,17 @@
 .tareaResuelta{
     margin-right: 1rem;
 }
+
+@media screen and (max-width: 465px) {
+    .enviar{
+        font-size: .7rem;
+    }
+    .contenedorTareas{
+        margin: auto;
+        width: 95%;
+    }
+    .contenedorInput{
+        margin: auto;
+        width: 95%;
+    }
+}

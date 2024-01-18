@@ -19,3 +19,13 @@ h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     user-select: none;
 }
+
+@media screen and (max-width: 465px) {
+    .logo{
+        width: 5rem;
+    }
+    .contenedorHeader{
+        display: flex;
+        flex-direction: column;
+    }
+}
